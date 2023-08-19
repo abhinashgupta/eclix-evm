@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.icons:hover{
+cursor: pointer;
+}
+.icons i:hover{
+    color: #ca309d;
+}
+#ll:hover{
+ cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    /* height: 10%; */
+    /* padding: 1vw; */
+    height: 15vw;
+
+    position:relative;
+    font-size: 2.5vw;
+    background-color: #f8f8f8;
+}
+.footer>i:hover{
+    cursor: pointer;
+}
+.footer>i{
+    margin-bottom:2vw ;
+}
+.footer>svg{
+    margin-top: 1vw;
+}
+.footer>svg:hover{
+    cursor: pointer;
+}
